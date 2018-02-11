@@ -1,0 +1,28 @@
+sudo: required
+
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.32.4/hugo_0.32.4_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
+  - pip install Pygments
+
+branches:
+ only:
+   - master
+
+notifications:
+  email: false
+
+script:
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then echo "Deploying to WWW" && npm run build; fi
+
+deploy:
+    provider: pages
+    skip-cleanup: true
+    local-dir: docs
+#    keep-history: true
+    github-token: $GITHUB_TOKEN #set in travis-ci.org dashboard
+    on:
+      branch: master
+    repo: thatsjet/thatsjet.github.io
+    target-branch: master
+#    fqdn: www.devsecsops-community.org
