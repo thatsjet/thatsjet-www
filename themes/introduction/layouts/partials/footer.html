@@ -1,0 +1,9 @@
+<div class="section" id="footer"><!-- Begin Footer section -->
+    <div class="container has-text-centered"><!-- Begin Footer container -->
+        {{ if .Site.Params.footerText }}
+            {{ .Site.Params.footerText }}
+        {{ else }}
+        <span class="footer-text">&copy;Copyright {{ now.Format "2006" }} Jeremy Anderson, all rights reserved</span>
+        {{ end }}
+    </div><!-- End Footer container -->
+</div><!-- End Footer section -->

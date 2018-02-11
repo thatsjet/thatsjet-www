@@ -1,0 +1,11 @@
+.hero{
+  background: url('/images/herobg.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.hero-body h1, .hero-body h3, .hero h1{
+  color:white;
+}
+.nav-item a, a.nav-item{
+  color:white;
+}
