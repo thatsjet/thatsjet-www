@@ -6,4 +6,4 @@ external_link: "https://devsecops-community.org"
 weight: 2
 ---
 
-Give some information about the DevSecOps Community and purpose.
+The DevSecOps Community is a place for developers and security professionals to engage and collaborate to create the most secure and fast code on the planet.
