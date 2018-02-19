@@ -13,7 +13,7 @@ notifications:
   email: false
 
 script:
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then echo "Deploying to WWW" && npm run build; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then echo "Deploying to WWW" && hugo; fi
 
 deploy:
   provider: s3
