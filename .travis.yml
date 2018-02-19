@@ -1,15 +1,18 @@
-sudo: required
 install:
 - wget https://github.com/gohugoio/hugo/releases/download/v0.32.4/hugo_0.32.4_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
 - pip install --user Pygments
+
 branches:
   only:
   - master
+
 notifications:
   email: false
+  
 script:
 - if [ "$TRAVIS_BRANCH" = "master" ]; then echo "Deploying to WWW" && hugo; fi
+
 deploy:
   provider: s3
   access_key_id: AKIAJ264JAGXEDGALBEQ
