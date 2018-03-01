@@ -9,6 +9,7 @@ title: "The Ultimate Shift-left: Education"
 leadImage: "/images/posts/2018-03-01-secure_coder_sticker.jpg"
 type: post
 featured: true
+draft: true
 comments: false
 ---
 
