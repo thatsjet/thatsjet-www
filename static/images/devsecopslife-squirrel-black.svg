@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 612" style="enable-background:new 0 0 792 612;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#010101;}
+	.st1{font-family:'SpaceMono-Bold';}
+	.st2{font-size:91.8012px;}
+	.st3{fill:#ED1C24;}
+</style>
+<text transform="matrix(1 0 0 1 5.7085 532.4307)"><tspan x="0" y="0" class="st0 st1 st2">#DEV</tspan><tspan x="224.7" y="0" class="st1 st2">SEC</tspan><tspan x="393.3" y="0" class="st0 st1 st2">OPS</tspan><tspan x="561.8" y="0" class="st3 st1 st2">LIFE</tspan></text>
+<g>
+	<path class="st0" d="M544.7,184.4l0,30c14.5-0.1,26.1-12,26-26.5l0-3.4c-0.9-52.3-43.6-94.2-95.9-94.2h0c-53,0-96,43-96,96V250
+		h41.8c34.2,0,62,27.7,62,62v24.9h-11V316c0-31-25.1-56.1-56.1-56.1h-47.2v-9.8c0-16-12.6-29-28.5-29.6l-33.6-33.6v33.6h-16.3
+		l-62.7,62.7l23.4,23.4c4.6,4.6,10.9,7.2,17.4,7.2h46.7V329h-59.9v38.1h16.3v-19.1l27.5,32.3h56.4v-11c0-24.4,19.8-44.3,44.3-44.3
+		h14.8v11.8h-17.3c-17.6,0-31.9,14.3-31.9,31.9l0.1,46.1h-24.4c-8.6,0-15.7,7-15.7,15.7v10.7l116.5,0v-11.9l16.8,0
+		c51.1,0,92.5-41.4,92.5-92.5V256c0-11.7-9.5-21.3-21.3-21.3h-34.3v-50.3H544.7z M289.5,272.7c-4.9,0-8.9-4-8.9-8.9s4-8.9,8.9-8.9
+		c4.9,0,8.9,4,8.9,8.9S294.4,272.7,289.5,272.7z"/>
+	<g>
+		<path class="st0" d="M518.1,201.7c0-1.6,1.1-2.7,2.6-2.7c1.5,0,2.5,1.1,2.6,2.7c0,1.5-1,2.7-2.6,2.7
+			C519.1,204.4,518.1,203.2,518.1,201.7z M518.1,217c0-1.6,1.1-2.7,2.6-2.7c1.5,0,2.5,1.1,2.6,2.7c0,1.5-1,2.7-2.6,2.7
+			C519.1,219.7,518.1,218.6,518.1,217z"/>
+	</g>
+</g>
+</svg>

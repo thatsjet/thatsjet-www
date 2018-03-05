@@ -4,8 +4,26 @@
   background-size: auto;
 }
 .hero-body h1, .hero-body h3, .hero h1{
-  color:white;
+  color:#FFF;
+  background: none !important;
 }
 .nav-item a, a.nav-item{
+  color:#666;
+}
+
+.hero .nav-item{
+  color:#FFF;
+}
+h3.title{
+  font-size: 1.4rem;
+}
+h1.bold-title{
+  font-size: 4rem;
+}
+code{
+  font-size: 100%;
+}
+.hero .social-icons a{
   color:white;
+  zoom: 150%;
 }

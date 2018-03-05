@@ -4,7 +4,7 @@
 <div class="section" id="top">
     <!-- Parent section -->
 
-    <div class="container hero {{ if .Site.Params.fadeIn }} fade-in one {{ end }}">
+    <div class="container {{ if .Site.Params.fadeIn }} fade-in one {{ end }}">
         <!-- Begin Title -->
         <h1 class="bold-title is-1">{{ .Title }}</h1>
     </div>
@@ -23,10 +23,11 @@
             <!-- Begin blog post content -->
             {{ if .Params.image }}
             <div class="has-text-centered">
-            <img src="{{ .Params.image }}" class="img-responsive"> 
+            <img src="{{ .Params.image }}" class="img-responsive">
             </div>
-            {{ end }} 
-            
+            {{ end }}
+
+
             {{ .Content }}
         </div>
         <!-- End blog post content -->

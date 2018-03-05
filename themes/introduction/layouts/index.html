@@ -31,6 +31,8 @@
         {{ if .Site.Params.showProjects }}
         <a class="nav-item" href="#projects">Projects</a>
         {{ end }}
+        <a class="nav-item" href="/writing/">Writing</a>
+        <a class="nav-item" href="/speaking/">Speaking</a>
         {{ if .Site.Params.showBlog }}
         <a class="nav-item" href="#blog">Blog</a>
         {{ end }}
@@ -56,7 +58,7 @@
             {{ end }}
             <div class="column markdown">
                 {{ range .Data.Pages }}
-                    {{if eq .Title "About" }}
+                    {{if eq .Title "about" }}
                             {{.Content}}
                         {{end}}
                     {{ end }}

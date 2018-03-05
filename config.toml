@@ -11,11 +11,11 @@ publishDir          = "docs"
 # googleAnalytics   = "xxx"
 
 [params]
-    bloghead            = "Blog"                        # Full name shows on blog post pages
+    bloghead            = "blog"                        # Full name shows on blog post pages
     firstname           = "Jet"                         # First name shows in introduction on main page
-    tagline             = "DevSecOps Evangelist"       # Appears after the introduction
+    tagline             = "Writer, Speaker, AppSec Archineer, DevSecOps Evangelist"       # Appears after the introduction
     introheight         = "fullheight"                       # Input either 'medium' or 'large' or 'fullheight'
-    themestyle          = "dark"                        # Choose 'light' or 'dark'
+    themestyle          = "light"                        # Choose 'light' or 'dark'
     avatar              = "images/jet-anime-sm.jpg"             # Path to image in static folder eg. img/avatar.png, or comment out to remove
     email               = ""                            # Shows in contact section, or leave blank to omit
     localtime           = false                          # Show your current local time in contact section
@@ -34,7 +34,7 @@ publishDir          = "docs"
     showprojects        = true                          # Show Projects section on home page
     projectcolumns      = "3"                           # Choose "2" or "3" columns for projects section
     placeholderimg      = "/img/workday.jpg"            # For Projects without image
-    showallposts        = true                         # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+    showallposts        = false                         # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
     showlatest          = true                          # Show latest blog post summary
     sharebuttons        = true                          # On post pages, show share this social buttons
 
@@ -42,7 +42,9 @@ publishDir          = "docs"
     sharetwitter        = true
     sharefacebook       = true
     sharepinterest      = false
-    sharegoogleplus     = true
+    sharegoogleplus     = false
+    shareLinkedin       = true
+    sharereddit         = true
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
