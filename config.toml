@@ -1,4 +1,4 @@
-baseurl             = "/"   # Your domain name. Must end with "/"
+baseurl             = "https://www.thatsjet.com/"   # Your domain name. Must end with "/"
 languageCode        = "en-us"
 title               = "That's Jet!"
 theme               = "introduction"

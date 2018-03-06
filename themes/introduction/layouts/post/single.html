@@ -21,11 +21,13 @@
                 {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}
             </div>
 
+  Link:           {{ .Permalink }}
+
             {{ if .Site.Params.shareButtons }}
                 <div class="blog-share">
                 Share this:
                 {{ if .Site.Params.shareTwitter }}
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20{{ .Title }}%20{{ .Permalink }}"
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read {{ .Title }}%20{{ .Permalink }} via @thatsjet"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
