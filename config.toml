@@ -8,7 +8,7 @@ canonifyurls        = true                              # Turns relative urls in
 publishDir          = "docs"
 
 # disqusshortname   = "xxx"                             # Enable Disqus for comments
-# googleAnalytics   = "xxx"
+# googleAnalytics   = "UA-3688058-11"
 
 [params]
     bloghead            = "blog"                        # Full name shows on blog post pages
